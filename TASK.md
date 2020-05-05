@@ -44,7 +44,7 @@ Key Queries
 * `POST /api/match`
 An endpoint to receive a combat log text file and ingest it into the system. You can post a text file to the endpoint using the following `curl` command:
 
-````curl -H "Content-Type: text/plain" -d @combatlog_1.txt http://localhost:8080/api/match````
+````curl -H "Content-Type: text/plain" -d @combatlog_1.log.txt http://localhost:8080/api/match````
 
 * `GET /api/match/$match_id`
 A list of the heroes within a match and the number of kills they made
